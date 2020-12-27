@@ -40,7 +40,7 @@ googleAnalytics = "Your Google Analytics tracking id"
  # subtitle = "subtitle"
   # Logo image. This is displayed ogp image.
   logo = "/avatar.jpeg"
-  favicon = "/avatar.jpeg"
+  favicon = "/favicon.ico"
 
 [[menu.main]]
     name = "Blog"
