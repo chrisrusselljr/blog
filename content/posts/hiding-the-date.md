@@ -1,27 +1,25 @@
 ---
-author: "Dave Kerr"
-date: 2020-06-11
-linktitle: Hiding the Date
-title: Hiding the Date
+author: "Chris Russell"
+date: 2020-12-27
+linktitle: Introduction
+title: Introduction
 weight: 10
 hideDate: true
 ---
 
 
-## Introduction
+## Why a blog?
 
-Hiding the date in a page or post is easy! Just set `hideDate` to `true` in your front matter.
+I've come a long ways in my 28 years as a student and professional. I think by now I might have a few ideas of my own to share and offer perspective from my journey.  
 
-As an example, the front matter for this page is:
+As of today, I work for SpaceX on the Dragon Supply Chain Team as a Buyer for mechanisms and mechanical assemblies. Prior to this, I was a Buyer at Volvo Cars USA, as awell as a Buyer and Engineer for TRU Simulation. Making my way to California has taken some time, but I finally feel I am working in a place that challeneges me and offers significant opportunity for growth. THe level of talent I interact with on a daily basis never ceases to amaze me. 
 
-```
----
-date: 2020-06-11
-linktitle: Hiding the Date
-title: Hiding the Date
-weight: 10
-hideDate: true
----
-```
+In my spare time, I like to read, produce electronic music, and workout. 
 
-Piece of cake!
+Today - I'm back in my hometown of Bedford, New Hampshire on Christmas Holiday. I've found some time to build this blog and set up a space where I will document whats on my mind and share my ideas.
+
+Looking forward, I'd love to build content here and eventually begin sharing my work on medium. Following the success of this, I'd like to offer a subscription service on substack. 
+
+I've never really seen myself as an author or talented in motivation, but I think starting is the best way to build a skill. Wish me luck.
+
+-Chris
