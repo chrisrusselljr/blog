@@ -14,7 +14,7 @@ googleAnalytics = "Your Google Analytics tracking id"
   # footer
   twitter = "chrisrusselljr"
  # facebook = "Your Facebook username"
- # instagram = "Your Instagram username"
+  instagram = "its_crussell"
  # github = "Your GitHub username"
  # gitlab = "Your GitLab username"
  # npm = "Your npm username"
@@ -43,7 +43,7 @@ googleAnalytics = "Your Google Analytics tracking id"
   favicon = "/favicon.ico"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     url = "/"
     weight = 1
 
