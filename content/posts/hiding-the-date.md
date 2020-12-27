@@ -7,7 +7,6 @@ weight: 10
 hideDate: true
 ---
 
-
 ## Why a blog?
 
 I've come a long ways in my 28 years as a student and professional. I think by now I might have a few ideas of my own to share and offer perspective from my journey.  
@@ -23,3 +22,10 @@ Looking forward, I'd love to build content here and eventually begin sharing my 
 I've never really seen myself as an author or talented in motivation, but I think starting is the best way to build a skill. Wish me luck.
 
 -Chris
+
+PS. here's how you keep the blog updated.  
+
+`git status`  
+`git add .`  
+`git commit -m "update note here"`  
+`git push origin master`  
