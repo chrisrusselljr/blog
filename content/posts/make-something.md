@@ -7,11 +7,11 @@ draft: false
 ---
 
 
-I often bake desserts for friends and family. It’s not a regular occurrence, but it always results in good feelings. Who doesn’t love a [chocolate chip cookie](https://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html)? Unfortunately, my budget of high-quality dark chocolate and free time limits this giving, as does the size of my oven and kitchenaid mixer. Usually, the best yields are 10-15 quick spark of joy and energy from a single batch.   
+I often bake desserts for friends and family. It’s not a regular occurrence, but it always results in good feelings. Who doesn’t love a [chocolate chip cookie](https://www.seriouseats.com/recipes/2013/12/the-food-lab-best-chocolate-chip-cookie-recipe.html)? Unfortunately, my budget of high-quality dark chocolate and free time limits this giving, as does the size of my oven and kitchenaid mixer. Usually, the best yields are 10-15 quick sparks of joy and energy from a single batch.   
 
 Not bad – 15:1 ratio for a few hours of work. However, what would happen if I were suddenly thrust into the working life of a professional baker? Eight hours a day, toiling away at my creations. I don’t think I would quite enjoy that situation as much as my hobby. Having the autonomy to decide when and where to commit my time allows me to enjoy the results.  
 
-Enter Rick and Stephanie Jaworski of iFood Media LLC. and their hugely popular [Joyofbaking](https://www.joyofbaking.com/) website. Together, they’ve created 400+ video recipe demonstrations and amassed 1.4 million [Youtube followers](https://www.youtube.com/channel/UCFjd060Z3nTHv0UyO8M43mQ). All given away at a whim with zero resistance. The Jaworskis have managed to leverage two unique skill sets into an incredibly successful business. I personally have relief on their content to build my skillset.  
+Enter Rick and Stephanie Jaworski of iFood Media LLC. and their hugely popular [Joyofbaking](https://www.joyofbaking.com/) website. Together, they’ve created 400+ video recipe demonstrations and amassed 1.4 million [Youtube followers](https://www.youtube.com/channel/UCFjd060Z3nTHv0UyO8M43mQ). All given away at a whim, with zero resistance. The Jaworskis have managed to leverage two unique skill sets into an incredibly successful business. I personally have relied on their content to build my skillset.  
 
 It is a terrible fallacy to think the only way to give more is to do more. All humans are limited in our capacity to exert effort – so we must innovative ways to multiply our output.  
 
