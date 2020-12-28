@@ -3,7 +3,6 @@ author: "Chris Russell"
 date: 2020-12-27
 linktitle: Introduction
 title: Introduction
-weight: 10
 hideDate: true
 ---
 
