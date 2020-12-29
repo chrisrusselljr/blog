@@ -19,6 +19,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
+  RSSLink = "/index.xml"
   paginate = 10
   custom_css = ["/css/custom.css"]
   # Social accounts. Link to these accounts are displayed in the header and
