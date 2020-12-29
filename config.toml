@@ -11,7 +11,7 @@ copyright = "&copy; 2020"
     weight = 1
 
 # Google Analytics API key.
-googleAnalytics = "Your Google Analytics tracking id"
+googleAnalytics = "AIzaSyB73Pbi3HPwOMq6Lk2xyscb1xZVYL0--no"
 
 enableEmoji = true
 enableGitInfo = true
@@ -43,7 +43,7 @@ canonifyURLs = true
   # Disqus shortname
  # disqus = ""
   author = "Chris Russell"
- # authorwebsite = "example.com"
+ authorwebsite = "chrisrussell.blog"
   avatar = "/avatar.jpeg"
   contact = "mailto:chris.russell02@gmail.com"
   bio = "Innovator // Engineer // Artist"
