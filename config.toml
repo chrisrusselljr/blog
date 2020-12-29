@@ -45,7 +45,7 @@ canonifyURLs = true
   author = "Chris Russell"
  # authorwebsite = "example.com"
   avatar = "/avatar.jpeg"
-  contact = "mailto:chris.russell02@gmail.com)"
+  contact = "mailto:chris.russell02@gmail.com"
   bio = "Innovator // Engineer // Artist"
   # Short subtitle/tagline. This is displayed in the header.
  # subtitle = "subtitle"

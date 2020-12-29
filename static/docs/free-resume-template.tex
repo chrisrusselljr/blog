@@ -1,0 +1,258 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=.8in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,linkcolor=darkblue,urlcolor=darkblue,anchorcolor=darkblue,citecolor=darkblue}
+\usepackage{enumitem}
+\usepackage{calc}
+
+\newlength\widest
+\usepackage{multicol}
+
+
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+%general info
+\begin{center}
+{\huge \textbf{Example A. Resume}}
+\vspace{0.2em}
+
+One Infinite Loop. \textbullet
+\ Cupertino, CA 95014 \textbullet
+\ (123) 456-7890\ \ \textbullet
+\ \href{mailto:example.email@gmail.com}{emaple.email@gmail.com}
+\end{center}
+\vspace{-0.4em}
+\hrule
+\vspace{-0.6em}
+
+%top section 0 education
+\subsection*{EDUCATION}
+\vspace{-0.2em}
+\begin{itemize}[leftmargin=0cm]
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+	\parskip=0.1em
+
+	\item[] 
+	\headerrow
+		{\textbf{University of School}}
+		{{City, State}}
+	\\
+	\headerrow
+		{\emph{M.S. Fancier Degree., May 2019}}
+		{{GPA: 3.25}}
+	
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+	\parskip=0.1em
+
+	\item[] 
+	\headerrow
+		{\textbf{School of University}}
+		{{City, State}}
+	\\
+	\headerrow
+		{\emph{B.S. Fancy Degree, May 2015}}
+		{{GPA: 3.25}}
+
+
+\vspace{-0.6em}
+
+\end{itemize}
+
+\hrule
+\vspace{-0.6em}
+
+
+\subsection*{EXPERIENCE}
+\vspace{-0.2em}
+\begin{itemize}[leftmargin=0cm]
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+	\parskip=0.1em
+	\item[]
+	\headerrow
+		{\textbf{Company Name}}
+		{{City, State}}
+	\\
+	\headerrow
+		{\emph{Job Title}}
+		{{May 2020 - Present $\cdot$ 5 mos}}
+	\begin{itemize}[leftmargin=.43cm]
+	\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+
+		\item  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus risus at ultrices mi tempus imperdiet nulla malesuada.
+		
+		\item Odio morbi quis commodo odio aenean sed adipiscing. Pellentesque habitant morbi tristique senectus et netus et malesuada. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. 
+		
+		\item Id leo in vitae turpis massa sed elementum tempus egestas.
+		
+	\end{itemize}
+	
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+	\parskip=0.1em
+	\item[]
+	\headerrow
+		{\textbf{Company Name}}
+		{{City, State}}
+	\\
+	\headerrow
+		{\emph{Job Title}}
+		{{Jan 2019 - Apr 2020 $\cdot$ 1 yr 4 mos}}
+	\begin{itemize}[leftmargin=.43cm]
+	\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+
+
+		
+		
+
+		
+		\item  Sed risus pretium quam vulputate dignissim. Massa enim nec dui nunc mattis enim ut tellus elementum. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. 
+		
+		\item Leo duis ut diam quam. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Sed cras ornare arcu dui vivamus arcu felis bibendum.
+
+		\item Massa sed elementum tempus egestas sed sed risus pretium quam. Lorem dolor sed viverra ipsum nunc aliquet.
+
+	\item Euismod quis viverra nibh cras pulvinar mattis. Mattis pellentesque id nibh tortor id aliquet. Et pharetra pharetra massa massa ultricies mi quis hendrerit. 
+
+
+		\item Non tellus orci ac auctor augue mauris augue. Mattis vulputate enim nulla aliquet porttitor lacus.
+
+		
+		
+	\end{itemize}	
+
+\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+	\parskip=0.1em
+	\item[]
+	\headerrow
+		{\textbf{Company Name}}
+		{{{City, State}}}
+	\\
+	\headerrow
+		{\emph{Job Title}}
+		{{Aug 2017 - Dec 2019 $\cdot$ 1 yr 6 mos}}
+	\begin{itemize}[leftmargin=.43cm]
+	\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+	
+
+		\item Dictum sit amet justo donec enim. Dui vivamus arcu felis bibendum ut. Quisque egestas diam in arcu cursus euismod quis viverra. 
+		
+	
+		\item Maecenas sed enim ut sem viverra aliquet eget sit. Purus in mollis nunc sed. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. 
+		
+		
+	\end{itemize}	
+		
+		\item[]
+	\headerrow
+		{\emph{Previous Job Title}}
+		{{Jun 2015 - Aug 2017 $\cdot$ 2 yrs 3 mos}}
+	
+	
+	\begin{itemize}[leftmargin=.43cm]
+	\setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+
+  		
+		\item Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Quam pellentesque nec nam aliquam sem. Ipsum consequat nisl vel pretium lectus quam id leo in.
+		
+  		\item Purus gravida quis blandit turpis. Id porta nibh venenatis cras sed felis eget. Nulla pellentesque dignissim enim sit amet.
+
+		
+		\item Et pharetra pharetra massa massa ultricies mi. Enim nec dui nunc mattis enim ut tellus elementum.  Ornare arcu odio ut sem. Commodo nulla facilisi nullam vehicula. 
+		
+	\end{itemize}	
+	
+
+
+\end{itemize}
+
+
+\hrule
+\vspace{-0.6em}
+
+\subsection*{SKILLS}
+\vspace{-0.2em}	
+
+\begin{itemize}[leftmargin=0cm]
+\item[]
+	\headerrow
+		{\textbf{Software}}	
+		
+\end{itemize}
+
+\vspace{-1.4em}
+	
+\begin{itemize}[leftmargin=0cm]
+\item[]
+Access, AutoCAD, Creo, ENOVIA, Excel, Flow Simulation, Infor LN ERP \& Supplier Exchange, Inventor, LabVIEW, MATLAB/Simulink, Minitab, NX, PowerBI, Powerpoint, Project, Pro/INTRALINK 10.1,  SolidWorks, Tableau, Teamcenter, Visio, Windchill, Word
+
+\end{itemize}
+
+\begin{itemize}[leftmargin=0cm]
+\item[]
+	\headerrow
+		{\textbf{Languages}}
+		
+\end{itemize}
+
+\vspace{-1.4em}
+
+\begin{itemize}[leftmargin=0cm]
+\item[]
+SQL, Python, R, HTML, CSS, \LaTeX
+\end{itemize}
+
+
+\end{document}

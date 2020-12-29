@@ -28,5 +28,3 @@ I miss DJing, but know this break is only temporary. As [Seth Godin](https://set
 Wish me luck.  
 
 -Chris   
-
- 
