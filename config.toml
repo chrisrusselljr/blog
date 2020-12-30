@@ -19,7 +19,6 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
-  showReadingTime = true
   RSSLink = "/index.xml"
   paginate = 10
   custom_css = ["/css/custom.css"]

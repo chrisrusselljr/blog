@@ -4,6 +4,9 @@ date: 2020-12-27
 linktitle: Introduction
 title: Introduction
 hideDate: true
+tags:
+  - beginning
+  - me
 ---
 
 ## Why a blog?

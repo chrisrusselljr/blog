@@ -5,10 +5,11 @@ linktitle: Drive
 title: Drive
 hideDate: true
 slug: drive-book-review
+draft: true
 tags:
   - book review
-  - tag 1
-  - tag 2
+  - self help
+  - motivation
 ---
 
 Test test test test.
