@@ -5,13 +5,14 @@ The personal blog of Chris Russell
 
 To dos:
 - [ ] add mailchimp and subscribe button to index and posts - linked
-- [ ] add section for book reviews + referral hyperlinks
+- [X] ~~add section for book reviews + referral hyperlinks~~ deicded to use tags and only one post section (home page)
 - [ ] add website masters (google, yahoo etc)
-- [ ] add metadate for section pages
-- [ ] add reading time to posts
+- [X] add readingtime for section pages
+- [X] add reading time to posts
 
 Blog schedule:
-- [ ] daily routines
-- [ ] integrative negotiations
-- [ ] iternative pathways + perserverance
-- [ ] how to set up a hugo blog + subsriber list
+- [ ] daily routines - week 1
+- [ ] integrative negotiations - week 2
+- [ ] iternative pathways + perserverance - week 3
+- [ ] how to set up a hugo blog + subsriber list - week 4
+- [ ] play, stick out, live life like a video game
