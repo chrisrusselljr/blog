@@ -5,6 +5,8 @@ author: "Chris Russell"
 linktitle: Why I made my resume in LaTeX
 draft: false
 slug: why-i-made-my-resume-in-latex
+tags:
+  - life
 ---
 
 

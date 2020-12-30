@@ -1,5 +1,9 @@
 {{ partial "header.html" . }}
-<h2 class="c-title p-tag-title">{{ .Title }}</h2>
+<h2 class="c-title">{{ .Title }}</h2>
+<span class="icon">
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
+  </span>
+  <span>{{ .ReadingTime }} minute read</span>
 {{ if isset .Site.Taxonomies "tags" }}
 {{ $mytag := .Title }}
 {{ range $index, $page := (.Paginate (where .Data.Pages "Type" "posts")).Pages }}

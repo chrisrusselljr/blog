@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chrisrussell.blog/tags/life/</loc>
+    <lastmod>2020-12-29T10:37:48-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chrisrussell.blog/</loc>
     <lastmod>2020-12-29T10:37:48-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://chrisrussell.blog/posts/</loc>
+    <lastmod>2020-12-29T10:37:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chrisrussell.blog/tags/</loc>
     <lastmod>2020-12-29T10:37:48-05:00</lastmod>
   </url>
   
@@ -28,16 +38,32 @@
   </url>
   
   <url>
+    <loc>https://chrisrussell.blog/tags/book-review/</loc>
+    <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chrisrussell.blog/posts/drive-book-review/</loc>
+    <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chrisrussell.blog/posts/introduction/</loc>
     <lastmod>2020-12-28T11:02:29-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chrisrussell.blog/categories/</loc>
+    <loc>https://chrisrussell.blog/tags/tag-1/</loc>
+    <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chrisrussell.blog/tags/</loc>
+    <loc>https://chrisrussell.blog/tags/tag-2/</loc>
+    <lastmod>2020-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chrisrussell.blog/categories/</loc>
   </url>
   
 </urlset>

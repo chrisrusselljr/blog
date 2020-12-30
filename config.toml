@@ -19,6 +19,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
+  showReadingTime = true
   RSSLink = "/index.xml"
   paginate = 10
   custom_css = ["/css/custom.css"]
@@ -64,6 +65,12 @@ canonifyURLs = true
     name = "About"
     url = "/about"
     weight = 2
+ 
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4 
 
 [related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.

@@ -8,6 +8,7 @@ To dos:
 - [ ] add section for book reviews + referral hyperlinks
 - [ ] add website masters (google, yahoo etc)
 - [ ] add metadate for section pages
+- [ ] add reading time to posts
 
 Blog schedule:
 - [ ] daily routines

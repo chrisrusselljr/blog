@@ -6,6 +6,43 @@
     <description>Recent content in Tags on Life So Far // Days Ahead</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020</copyright><atom:link href="https://chrisrussell.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2020</copyright>
+    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisrussell.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>life</title>
+      <link>https://chrisrussell.blog/tags/life/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book review</title>
+      <link>https://chrisrussell.blog/tags/book-review/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag 1</title>
+      <link>https://chrisrussell.blog/tags/tag-1/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/tag-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag 2</title>
+      <link>https://chrisrussell.blog/tags/tag-2/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/tag-2/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
