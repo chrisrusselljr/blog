@@ -23,10 +23,10 @@ Grant Cardone:
 Seth Godin:
 >You can’t be remarkable unless you stick out.”  
 
-Don’t wait to share.  
-Dont wait to be yourself.  
-Don’t play it safe.  
+Don’t wait to share. Dont wait to be yourself. Don’t play it safe.  
   
-Share now and share profusely. 
+Share now and share profusely.  
+
+Stick out
 
 -Chris
