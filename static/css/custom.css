@@ -21,6 +21,11 @@ img[src$='#floatright']
     /* whatever else styles you fancy here */
 }
 
-figcaption {
+
+.center {
+    text-align: center;
+  }
+
+  figcaption {
     text-align: center;
   }

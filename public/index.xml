@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisrussell.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisrussell.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stick out</title>
+      <link>https://chrisrussell.blog/posts/stick-out/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/posts/stick-out/</guid>
+      <description>Everyone prepares for failure, but what happens when you find success?
+Grant Cardone:
+ &amp;ldquo;Most people never go far enough in getting recognized, gaining attention, and making a big splash; they are trying to protect a reputation, a position, or some already achieved state. The successful are willing to take gambles – to put it all out there and know, regardless of the outcome, that they can go back and do it again.</description>
+    </item>
+    
+    <item>
+      <title>Three tips on finding fulfillment in your career</title>
+      <link>https://chrisrussell.blog/posts/finding-fulfillment-in-your-career/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/posts/finding-fulfillment-in-your-career/</guid>
+      <description>I never knew what I wanted to do when I grew up – and then I grew up.
+Until I was about 27 years old - I studied, graduated, studied some more, got a degree, then another… my life was a continuous stream of achievement and reorientation, always grasping for the next alcollade. Irregardless of these achievements, the truely best moments of my life up to that point were those when I was either DJing a party or going to music festivals with my friends.</description>
+    </item>
+    
     <item>
       <title>Why I made my resume in LaTeX (&#43; free template)</title>
       <link>https://chrisrussell.blog/posts/why-i-made-my-resume-in-latex/</link>
@@ -33,9 +54,8 @@ Not bad – 15:1 ratio for a few hours of work.</description>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://chrisrussell.blog/about/</guid>
-      <description>Welcome to my site. I&amp;rsquo;ve build this as a platform to express my ideas and hopefully offer some advice. Feel free to reach out to my personal mail here.
-Lets begin.
--Chris</description>
+      <description>Welcome to my site. My name is Chris Russell and I&amp;rsquo;m a 28 year old living in Los Angeles, California. I currently work at SpaceX as a Buyer for the Dragon Supply Chain and decided to make this blog to share my ideas some might find useful. Some of my favorite topics of interest include self-help, motivation, entrepreneurship, technology, nutrition, and music production.
+Feel free to reach out to my personal mail here.</description>
     </item>
     
     <item>
@@ -44,8 +64,9 @@ Lets begin.
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://chrisrussell.blog/posts/introduction/</guid>
-      <description>Why a blog? I&amp;rsquo;ve come a long ways in my 28 years as a student and professional. I think by now I might have a few ideas of my own to share and offer perspective from my journey.
-As of today, I work for SpaceX on the Dragon Supply Chain Team as a Buyer for mechanisms and mechanical assemblies. Prior to this, I was a Buyer at Volvo Cars USA, as awell as a Buyer and Engineer for TRU Simulation.</description>
+      <description>My go-to dating app photo
+Why a blog? At 28, it feels like I&amp;rsquo;ve come a long way, but I know this is only just the beginning. As I write, I hope to capture my ideas and my current mindset, maybe even provide some guidance to those who need it.
+As of today, I work for SpaceX on the Dragon Supply Chain Team as a Buyer for mechanisms and mechanical assemblies.</description>
     </item>
     
   </channel>

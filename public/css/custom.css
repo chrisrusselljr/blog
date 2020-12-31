@@ -21,6 +21,11 @@ img[src$='#floatright']
     /* whatever else styles you fancy here */
 }
 
+/*Changes the size of caption font*/
+figcaption {
+    font-size: small;
+}
+
 figcaption {
     text-align: center;
   }

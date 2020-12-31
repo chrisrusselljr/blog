@@ -7,22 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisrussell.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisrussell.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>motivation</title>
+      <link>https://chrisrussell.blog/tags/motivation/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-help</title>
+      <link>https://chrisrussell.blog/tags/self-help/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/self-help/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>LaTeX</title>
       <link>https://chrisrussell.blog/tags/latex/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://chrisrussell.blog/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>professional tips</title>
-      <link>https://chrisrussell.blog/tags/professional-tips/</link>
-      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisrussell.blog/tags/professional-tips/</guid>
       <description></description>
     </item>
     
@@ -45,6 +54,15 @@
     </item>
     
     <item>
+      <title>life</title>
+      <link>https://chrisrussell.blog/tags/life/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>purpose</title>
       <link>https://chrisrussell.blog/tags/purpose/</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
@@ -54,20 +72,11 @@
     </item>
     
     <item>
-      <title>beginning</title>
-      <link>https://chrisrussell.blog/tags/beginning/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <title>about</title>
+      <link>https://chrisrussell.blog/tags/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chrisrussell.blog/tags/beginning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>me</title>
-      <link>https://chrisrussell.blog/tags/me/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://chrisrussell.blog/tags/me/</guid>
+      <guid>https://chrisrussell.blog/tags/about/</guid>
       <description></description>
     </item>
     

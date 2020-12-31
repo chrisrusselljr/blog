@@ -8,9 +8,8 @@ slug: why-i-made-my-resume-in-latex
 tags:
   - LaTeX
   - resume
-  - professional tips
 ---
-
+![](/img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg)
 
 I’ve received a few job offers in my life and even more rejection letters. One thing that has always followed me along the way is my resume. The resume is a standard requirement during most application processes because it sums you up into one easy to digest page. For this reason alone, you must do everything you can to make it easy to read and effectively communicate the right information about who you are.  
 

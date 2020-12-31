@@ -2,10 +2,8 @@
   <header>
     <h2 class="c-title c-article__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <p class="c-article__meta">
-      {{ partial "timestamp.html" . }}
-      <br>
-      <br>
-      {{ partial "readingtime" .  }}
+      {{ partial "timestamp.html" . }} |  {{ partial "readingtime" .  }}
+     
     </p>
   </header>
   <div class="c-article__summary">
