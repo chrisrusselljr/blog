@@ -3,7 +3,7 @@ title: Stick out
 date: 2020-12-30
 author: "Chris Russell"
 linktitle: Stick Out
-draft: false
+draft: true
 slug: stick-out
 tags:
   - motivation

@@ -19,6 +19,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
+  description = "Happiness, fulfillment, success. Today."
   RSSLink = "/index.xml"
   paginate = 10
   custom_css = ["/css/custom.css"]
