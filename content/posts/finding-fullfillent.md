@@ -23,7 +23,7 @@ Until I worked at SpaceX, I didn’t understand what it meant to work for a miss
 
 At SpaceX, everyone is working towards the same goal – to make humanity multiplanetary. 
 
-The passion I hear in engineer’s voices when they challenge me and my supply base comes off as passion rather than friction. 
+The passion I hear in engineer’s voices when they challenge me and my supply base comes off as passion rather than friction. I rarely have to bring my guard up when collaborating or debating simply because the people I work with REALLY care about what they're doing. 
 
 Once you find what BIG challenges excite you, look at the companies solving those problems and convince them to let you help. 
 
