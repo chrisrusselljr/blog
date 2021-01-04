@@ -5,6 +5,7 @@ author: "Chris Russell"
 linktitle: Three tips on finding fulfillment in your career
 draft: false
 slug: finding-fulfillment-in-your-career
+image: "/img/saulo-mohana-wNz7_5EvUWU-unsplash.jpg"
 tags:
   - motivation
   - success
