@@ -35,6 +35,6 @@ As long as you’re taking action and moving in the general direction of your go
 
 ### **Be extremely aware of your mental and emotional state**
 
-It is abnormal to be unproductive and unhappy at work. Do not accept these conditions as standard. Know that there is a role and seat somewhere out there where you will be able to consistently show up and deliver excellent results. Stay keenly aware of your emotional state wellbeing. Strive to show up each day to work calm, relaxed, and ready to take on the most difficult challenges. Consistency is essential in developing trust with your teams and customers. 
+It is abnormal to be unproductive and unhappy at work. Do not accept these conditions as standard. Know that there is a role and seat somewhere out there where you will be able to consistently show up and deliver excellent results. Stay keenly aware of your emotional state and mental wellbeing. Strive to show up each day to work calm, relaxed, and ready to take on the most difficult challenges. Consistency is essential in developing trust with your teams and customers. 
 
 -Chris
