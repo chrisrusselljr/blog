@@ -12,7 +12,6 @@ tags:
   - happiness
   - fulfillment
 ---
-![](/img/saulo-mohana-wNz7_5EvUWU-unsplash.jpg)
 
 I never knew what I wanted to do when I grew up – and then I grew up.
 
