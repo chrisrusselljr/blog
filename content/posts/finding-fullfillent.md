@@ -31,7 +31,7 @@ Once you find what BIG challenges excite you, look at the companies solving thos
 
 It’s OK not to have a plan. 
 
-As long as you’re taking action and moving in the general direction of your goals, you will have time to iterate your strategy along the way. You don’t have to BE right; you only have to eventually GET it right. If something isn’t working, try something else. If you’ve exhausted all of your options at once place, try somewhere new. Never stagnate out of fear of failure and never settle until you’ve found a role that continuously challenges you and extracts your highest output. Only in these positions will you be able to grow at your highest trajectory.
+As long as you’re taking action and moving in the general direction of your goals, you will have time to iterate your strategy along the way. You don’t have to BE right; you only have to eventually GET it right. If something isn’t working, try something else. If you’ve exhausted all of your options at one place, try somewhere new. Never stagnate out of fear of failure and never settle until you’ve found a role that continuously challenges you and extracts your highest output. Only in these positions will you be able to grow at your highest trajectory.
 
 ### **Be extremely aware of your mental and emotional state**
 
