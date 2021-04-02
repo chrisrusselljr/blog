@@ -15,7 +15,7 @@ tags:
 
 I never knew what I wanted to do when I grew up – and then I grew up.
 
-Until I was about 27 years old - I studied, graduated, studied some more, got a degree, then another… my life was a continuous stream of achievement and reorientation, always reaching for the next accolade. Regardless of these achievements, the truly best moments of my life up to that point were those when I was either DJing a party or going to music festivals with my friends. Something was disconnected. Why couldn’t my career be as fulfilling and rewarding as my social life? As it turns out - this is an entirely possible scenario. It took me a few years (and companies) to figure out, but here are my top 3 prerequisites for finding balance and fulfillment in your professional career. 
+Until I was about 27 years old - I studied, graduated, studied some more, got a degree, then another… my life was a continuous stream of achievement and reorientation, always reaching for the next accolade. Regardless of these achievements, the truly best moments of my life up to that point were those when I was either DJing a party or going to music festivals with friends. Something was disconnected. Why couldn’t my career be as fulfilling and rewarding as my social life? As it turns out - this is an entirely possible scenario. It took me a few years (and companies) to figure out, but here are my top 3 prerequisites for finding balance and fulfillment in your professional career. 
 
 ### **Find a BIG problem that excites you**  
 
