@@ -22,13 +22,9 @@ As Seth Godin asks in his February [blog post](https://seths.blog/2021/02/im-jus
 
 >When we do our job, what happens to it? Does it go away, to be replaced by tomorrow’s endless list of tasks? What would happen if we had enough confidence and trust to reconsider the implications of how we do what we do?”
 
- 
-
 In summary - just doing your job is **NEVER** going to move the needle.
 
- 
-
-How many roles have you held where the daily grind serves only to make room for tomorrow's problems? Where the effort and hours of your day act only as a bucket removing water from a sinking ship? For me, this has been the story for most of my career, even up to the minute of sharing this post.
+How many roles have you held where the daily grind serves only to make room for tomorrow's problems? Where the effort and hours of your day act only as a bucket removing water from a sinking ship? For me, this has been the story for most of my career, even up to the minute of sharing this post. 
 
 
-We need to fix the underlying problem or process that requires us. We need to reconsider the implications of how we work. Humanity has bigger problems that need our attention - so let’s fix the role we’re in and move on to the next issue.
+We need to fix the underlying problem that requires us. We need to reconsider the implications of how we work. Humanity has bigger problems that need our attention - so let’s fix the role we’re in and move on to the next issue.
