@@ -28,8 +28,7 @@ In summary - just doing your job is **NEVER** going to move the needle.
 
  
 
-How many roles have you held where the daily grind serves only to make room for tomorrow's problems? Where the effort and hours of your day act as a bucket removing water from a sinking ship? For me, it's been most of my career, even up to the minute of sharing this post.
+How many roles have you held where the daily grind serves only to make room for tomorrow's problems? Where the effort and hours of your day act only as a bucket removing water from a sinking ship? For me, it has been the story of my career, even up to the minute of sharing this post.
 
- 
 
 We need to fix the underlying problem or process that requires us. We need to reconsider the implications of how we work. Humanity has bigger problems that need our attention - so let’s fix the role we’re in and move on to the next issue.
