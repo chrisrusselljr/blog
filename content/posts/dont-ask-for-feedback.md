@@ -5,7 +5,7 @@ author: "Chris Russell"
 linktitle: Don't Ask for Feedback
 draft: false
 slug: dont-ask-for-feedback
-summary: (You’re already awesome)
+summary: "(You’re already awesome)"
 thumbnail: "/img/aziz-acharki-HsXgRlIr4Ls-unsplash.jpg"
 tags:
   - teamwork
