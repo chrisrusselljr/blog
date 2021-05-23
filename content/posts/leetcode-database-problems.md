@@ -5,7 +5,6 @@ author: 'Chris Russell'
 linktitle: Leetcode Database Problems
 draft: true
 slug: leetcode-sql-practice
-summary: I really need to learn SQL...
 tags:
   - leetcode
   - sql
