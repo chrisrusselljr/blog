@@ -5,7 +5,7 @@ author: "Chris Russell"
 linktitle: Don't Ask for Feedback
 draft: false
 slug: dont-ask-for-feedback
-summary: You’re already awesome
+Summary: You’re already awesome
 thumbnail: "/img/aziz-acharki-HsXgRlIr4Ls-unsplash.jpg"
 tags:
   - teamwork
@@ -38,4 +38,4 @@ Authenticity = candor + directness
 
 And most importantly:
 
-Show you care first, or else you’ll just sound like an asshole.
+Show you care first, or else you’ll just sound like an asshole.hu

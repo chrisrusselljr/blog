@@ -19,7 +19,7 @@ Moving the needle means making a **NOTICEABLE** impact to your organization.
 
 From [Seth's Blog](https://seths.blog/2021/02/im-just-doing-my-job/):
 
->When we do our job, what happens to it? Does it go away, to be replaced by tomorrow’s endless list of tasks? What would happen if we had enough confidence and trust to reconsider the implications of how we do what we do?”
+>"When we do our job, what happens to it? Does it go away, to be replaced by tomorrow’s endless list of tasks? What would happen if we had enough confidence and trust to reconsider the implications of how we do what we do?”
 
 What Seth is saying is that just doing your job is **NEVER** going to move the needle.
 
