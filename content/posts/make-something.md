@@ -30,7 +30,7 @@ I wasn’t playing my own music (nor did I have any at the time). The nights wou
 
 When I think about my life now, I always try to move in the direction where I am impacting the greatest number of people possible, while still maintaining my personal autonomy. My newly found passion for [music production](https://soundcloud.com/crussell) is a byproduct of that thinking. So is this blog.   
 
-I miss DJing, but know this break is only temporary. As [Seth Godin](https://seths.blog/2017/10/the-pleasurehappiness-gap/) says:
+I miss DJing, but know this break is only temporary. As [Seth Godin](https://seths.blog/2017/10/the-pleasurehappiness-gap/) says:  
 >Scratching an itch is a route to pleasure. Learning to productively live with an itch is part of happiness. 
 
 Wish me luck.  
