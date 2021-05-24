@@ -1,6 +1,6 @@
 ---
 title: "Don't Ask for Feedback"
-description: "You’re already awesome."
+description: "(becasue you’re already awesome)"
 date: 2021-05-23
 author: "Chris Russell"
 linktitle: Don't Ask for Feedback

@@ -1,6 +1,7 @@
 ---
 title: "Five tips for effective team members"
-date: 2021-05-23
+description: Don't block. Speak Up. Skip the drama. Choose Your Battles. Commit.
+date: 2021-05-24
 author: "Chris Russell"
 linktitle: "Effective Team Members"
 draft: false
@@ -27,6 +28,6 @@ It is extremely human to develop opinions on the occurrence of events. The expre
 
 Every day, you have a limited amount of energy. You must be selective on what challenges you use it on.  If you’re like me, you are strongly confident in your own opinion, and like having things go your own way. Realize this is not a unique trait. Others will see you, look at you, hear your voice, and do exactly what they want regardless of how you feel. Picking your battles is out getting out of their way and choosing to direct your energy into a more productive enterprise.
 
-## On Going to Battle
+## Commit
 
 Commitment is the only outcome of conflict. Either you agree and commit or disagree and commit. The important part is you’ve expressed an opinion.
