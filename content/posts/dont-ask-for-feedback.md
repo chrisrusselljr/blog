@@ -1,11 +1,11 @@
 ---
 title: "Don't Ask for Feedback"
+description: "You’re already awesome."
 date: 2021-05-23
 author: "Chris Russell"
 linktitle: Don't Ask for Feedback
 draft: false
 slug: dont-ask-for-feedback
-Summary: You’re already awesome
 thumbnail: "/img/aziz-acharki-HsXgRlIr4Ls-unsplash.jpg"
 tags:
   - teamwork
