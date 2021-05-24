@@ -14,7 +14,7 @@ tags:
 ---
 ## Do not impede other's work
 
-The essential trait of a good teammate is someone who does not impede others work. This applies in both vertical and horizontal relationships. If you are a manager, and your Director is going to implement a process that will impede your team, is it your absolute obligation to speak up against such a thing. If your coworkers is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
+The essential trait of a good teammate is someone who does not impede other's work. This applies in both vertical and horizontal relationships. If you are a manager, and your Director is going to implement a process that will impede your team, is it your absolute obligation to speak up against such a thing. If your coworkers is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
 
 ## Speak Up
 
@@ -26,7 +26,7 @@ It is extremely human to develop opinions on the occurrence of events. The expre
 
 ## Choose Your Battles
 
-Every day, you have a limited amount of energy. You must be selective on what challenges you use it on.  If you’re like me, you are strongly confident in your own opinion, and like having things go your own way. Realize this is not a unique trait. Others will see you, look at you, hear your voice, and do exactly what they want regardless of how you feel. Picking your battles is out getting out of their way and choosing to direct your energy into a more productive enterprise.
+Every day, you have a limited amount of energy. You must be selective on which challenges you direct it towards.  If you’re like me, you are strongly confident in your own opinion and like having things go your own way. This is not a unique trait. Others will see you, look at you, hear your voice, and do exactly what they want, regardless of how you feel. Picking your battles is out getting out of their way and exerting your energy on a more productive enterprise.
 
 ## Commit
 
