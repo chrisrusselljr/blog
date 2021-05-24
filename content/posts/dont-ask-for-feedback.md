@@ -38,4 +38,4 @@ Authenticity = candor + directness
 
 And most importantly:
 
-Show you care first, or else you’ll just sound like an asshole.hu
+Show you care first, or else you’ll just sound like an asshole.
