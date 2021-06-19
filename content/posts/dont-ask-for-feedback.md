@@ -14,11 +14,11 @@ tags:
 ---
 ### Don’t Ask for Feedback
   
-You’re already awesome
+You’re already awesome.
 
-You don’t need anyone to verify this.
+You don't need anyone to verify this.
 
-Good teammates will tell you what to work on.
+Good teammates will tell you what to work on. 
 
 They’re called blind spots for a reason.
 
@@ -30,7 +30,7 @@ Let your guard down.
 
 Listen to their words, hear what they say, then do what you want – others will do the same.
 
-Show people you see them.
+Show people you see them. 
 
 Skip the code speak - say exactly what’s on your mind.
 
