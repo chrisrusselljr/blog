@@ -14,11 +14,11 @@ tags:
 ---
 ## Do not impede other's work
 
-The essential trait of a good teammate is someone who does not impede other's work. This applies in both vertical and horizontal relationships. If you are a manager, and your Director is going to implement a process that will impede your team, is it your absolute obligation to speak up against such a thing. If your coworkers is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
+Good teammates don't impede other's work. This applies in both vertical and horizontal relationships. If your Manager plans to implement a process that will impede your team, is it your absolute obligation to speak up against such a thing. If your coworker is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
 
 ## Speak Up
 
-Authenticity is perishable. From the moment you feel it in your gut, the countdown begins. Once the conversation is over, you’ve missed your chance. I write these articles for accountability – to do the things I write about, because these things are hard, especially this one. Recognizing these moments and take action. I see future leaders around me when people speak what’s on their mind. It motivates me to do the same.
+Authenticity is perishable. From the moment you feel it in your gut, the countdown begins. Once the conversation is over, you’ve missed your chance. Recognize these moments and take action. I see future leaders around me when people speak what’s on their mind. It motivates me to do the same.
 
 ## Skip the Drama
 
