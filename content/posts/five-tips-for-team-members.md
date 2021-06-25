@@ -6,13 +6,12 @@ author: "Chris Russell"
 linktitle: "Effective Team Members"
 draft: false
 slug: effective-team-members
-# thumbnail: "/img/annie-spratt-hCb3lIB8L8E-unsplash.jpg"
+thumbnail: "/img/pexels-fauxels-3183150.jpg"
 tags:
   - teamwork
   - leadership
   - success
 ---
-![](/img/annie-spratt-hCb3lIB8L8E-unsplash.jpg)
 
 ## Do not impede other's work
 
