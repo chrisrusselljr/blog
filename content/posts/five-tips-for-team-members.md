@@ -14,7 +14,7 @@ tags:
 ---
 ## Do not impede other's work
 
-Good teammates don't impede other's work. This applies in both vertical and horizontal relationships. If your Manager plans to implement a process that will impede your team, is it your absolute obligation to speak up against such a thing. If your coworker is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
+Good teammates do not impede other's work. This applies in both vertical and horizontal relationships. If your Manager plans to implement a process that will impede your team, is it your absolute obligation to speak up. If your coworker is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
 
 ## Speak Up
 
@@ -22,7 +22,7 @@ Authenticity is perishable. From the moment you feel it in your gut, the countdo
 
 ## Skip the Drama
 
-It is extremely human to develop opinions on the occurrence of events. The expression of these thoughts is unnecessary if you’re not involved. Unless you’re designated as an agent or facilitator between parties, keep your mouth shut. Getting involved in other people’s situations is like having a conversation while blending a smoothie; you’re already lost in the noise. Other people need to take responsibilities for themselves.
+It is extremely human to develop opinions on the occurrence of events. The expression of these thoughts is unnecessary if you’re not involved. Unless you’re designated as an agent or facilitator between parties, keep your mouth shut. Getting involved in other people’s situations is like having a conversation while blending a smoothie; you’re already lost in the noise. Other people need to take responsibilities for themselves. 
 
 ## Choose Your Battles
 
