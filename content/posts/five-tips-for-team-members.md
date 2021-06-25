@@ -1,7 +1,7 @@
 ---
 title: "Five tips for effective team members"
 description: Don't block. Speak Up. Skip the drama. Choose Your Battles. Commit.
-date: 2021-05-24
+date: 2021-06-24
 author: "Chris Russell"
 linktitle: "Effective Team Members"
 draft: false

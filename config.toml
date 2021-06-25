@@ -2,7 +2,7 @@ baseurl = "https://chrisrussell.blog/"
 DefaultContentLanguage = "en"
 Title = "Life So Far // Days Ahead"
 # Copyright notice. This is displayer in the footer.
-copyright = "&copy; 2020"
+copyright = "&copy; 2021"
 
 [languages]
   [languages.en]
