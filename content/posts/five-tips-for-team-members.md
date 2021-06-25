@@ -6,7 +6,7 @@ author: "Chris Russell"
 linktitle: "Effective Team Members"
 draft: false
 slug: effective-team-members
-thumbnail: "/img/aziz-acharki-HsXgRlIr4Ls-unsplash.jpg"
+thumbnail: "/img/pexels-fauxels-3183150.jpg"
 tags:
   - teamwork
   - leadership
