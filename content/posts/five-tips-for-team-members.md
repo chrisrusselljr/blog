@@ -6,12 +6,14 @@ author: "Chris Russell"
 linktitle: "Effective Team Members"
 draft: false
 slug: effective-team-members
-thumbnail: "/img/annie-spratt-hCb3lIB8L8E-unsplash.jpg"
+# thumbnail: "/img/annie-spratt-hCb3lIB8L8E-unsplash.jpg"
 tags:
   - teamwork
   - leadership
   - success
 ---
+![](/img/annie-spratt-hCb3lIB8L8E-unsplash.jpg)
+
 ## Do not impede other's work
 
 Good teammates do not impede other's work. This applies in both vertical and horizontal relationships. If your Manager plans to implement a process that will impede your team, is it your absolute obligation to speak up. If your coworker is working on a project, you must not impede their progress in any way, unless their actions directly impact you.
