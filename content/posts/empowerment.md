@@ -12,14 +12,14 @@ tags:
   - confidence
   - planning
 ---
->"If you don’t have a plan for yourself, you’ll become a part of of their's. 
+>"If you don’t have a plan for yourself, you’ll become a part of someone else's. - Jim Rohn 
 
 I write this in my notebook and look at it multiple times day.  
 
  
 ## If you want something in life, you need to develop a plan.
 
-Nothing in your carrer will be given to you.
+Nothing in your career will be given to you.
 
 Determine what you want and the necessary steps to get there.
 
@@ -31,8 +31,8 @@ Empowerment means you are in control of your path
 
 If you’re good at what you do, consider yourself a resource.
 
-Be helpful, but not as the cost of your plan.
+Be helpful, but not at the cost of your plan.
 
-Compromising your bandwith is stagnation. 
+Compromising your bandwidth is stagnation. 
 
 There are enough problems in the world to satisfy everyone.
