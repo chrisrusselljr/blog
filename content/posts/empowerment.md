@@ -25,7 +25,7 @@ Determine what you want and the necessary steps to get there.
 
 Then execute, every day, without apology.
 
-Empowerment means you are in control of your path
+Empowerment means *you are in control* of your path
 
 ## Everyone is competing to get to the next level.
 
