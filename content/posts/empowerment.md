@@ -19,13 +19,13 @@ I write this in my notebook and look at it multiple times day.
  
 ## If you want something in life, you need to develop a plan.
 
-Nothing in your career will be given to you.
+Nothing will be given to you.
 
 Determine what you want and the necessary steps to get there.
 
 Then execute, every day, without apology.
 
-Empowerment means *you are in control* of your path
+Empowerment means *you are in control* of your path.
 
 ## Everyone is competing to get to the next level.
 
