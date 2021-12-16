@@ -18,11 +18,11 @@ You’re already awesome.
 
 You don't need anyone to verify this.
 
-Good teammates will tell you what to work on. 
+Good teammates/managers will tell you what to work on. 
 
 They’re called blind spots for a reason.
 
-Ask specific questions if you have them.
+Ask *specific* questions if you have them.
 
 Let people rip into your work. Don’t get defensive. Thank them profusely.
 
@@ -30,7 +30,7 @@ Let your guard down.
 
 Listen to their words, hear what they say, then do what you want – others will do the same.
 
-Show people you see them. 
+Show people you see them. Look at them. Say "good morning".
 
 Skip the code speak - say exactly what’s on your mind.
 
