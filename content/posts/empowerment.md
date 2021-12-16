@@ -33,6 +33,6 @@ If you’re good at what you do, consider yourself a resource.
 
 Be helpful, but not as the cost of your plan.
 
-Compromising your bandwith is the most direct way stagnate growth. 
+Compromising your bandwith is stagnation. 
 
 There are enough problems in the world to satisfy everyone.
