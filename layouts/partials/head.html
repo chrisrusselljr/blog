@@ -38,10 +38,8 @@
   {{ end }}
   <!-- Hugo Version Number -->
   {{ hugo.Generator -}}
-  
-  {{ if .Site.Params.GoogleAnalyticsID }}
-  {{ partial "analytics-gtag.html" . }}
-  {{ end }}
+
+  {{ template "_internal/google_analytics.html" . }}
 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
   <!-- Custom css files as define in config.toml -->
