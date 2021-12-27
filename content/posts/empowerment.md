@@ -1,5 +1,5 @@
 ---
-title: "Empowerment"
+title: "Self Empowerment"
 description: "You are in control."
 date: 2021-12-16
 author: "Chris Russell"
@@ -33,6 +33,6 @@ If you’re good at what you do, consider yourself a resource.
 
 Be helpful, but not at the cost of your plan.
 
-Compromising your bandwidth is stagnation. 
+To compromise your bandwidth is stagnation. 
 
 There are enough problems in the world to satisfy everyone.
