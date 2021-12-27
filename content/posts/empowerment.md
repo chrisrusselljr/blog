@@ -34,5 +34,3 @@ If you’re good at what you do, consider yourself a resource.
 Be helpful, but not at the cost of your plan.
 
 To compromise your bandwidth is stagnation. 
-
-There are enough problems in the world to satisfy everyone.
