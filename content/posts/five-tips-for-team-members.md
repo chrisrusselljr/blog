@@ -23,11 +23,11 @@ Authenticity is perishable. From the moment you feel it in your gut, the countdo
 
 ## Skip the Drama
 
-It is extremely human to develop opinions on the occurrence of events. The expression of these thoughts is unnecessary if you’re not involved. Unless you’re designated as an agent or facilitator between parties, keep your mouth shut. Getting involved in other people’s situations is like having a conversation while blending a smoothie; you’re already lost in the noise. Other people need to take responsibilities for themselves. 
+It is extremely human to develop opinions on the occurrence of events. The expression of these thoughts is unnecessary if you’re not involved. Unless you’re designated as an agent or facilitator between parties, keep your mouth shut. Getting involved in other people’s situations is like having a conversation while blending a smoothie; you’re already lost in the noise. Other people need to take responsibility for themselves. 
 
 ## Choose Your Battles
 
-Every day, you have a limited amount of energy. You must be selective on which challenges you direct it towards.  If you’re like me, you are strongly confident in your own opinion and like having things go your own way. This is not a unique trait. Others will see you, look at you, hear your voice, and do exactly what they want, regardless of how you feel. Picking your battles is out getting out of their way and exerting your energy on a more productive enterprise.
+Every day, you have a limited amount of energy. You must be selective on which challenges you direct it towards.  If you’re like me, you are strongly confident in your own opinion and like having things go your own way. This is not a unique trait. Others will see you, look at you, hear your voice, and do exactly what they want, regardless of how you feel. Picking your battles is out getting out of their way and exerting your energy on more productive enterprises.
 
 ## Commit
 
