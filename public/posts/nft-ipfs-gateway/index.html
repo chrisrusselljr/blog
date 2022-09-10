@@ -152,7 +152,7 @@ if (!doNotTrack) {
 <ol>
 <li>
 <p>ssh into VM<br>
-<code>ssh -i &quot;cryptids-v6-node-west.pem&quot; ubuntu@ec2-3-101-123-139.us-west-1.compute.amazonaws.com</code></p>
+<code>ssh -i &quot;[private key here]&quot; [instance name here]</code></p>
 </li>
 <li>
 <p>Install kubo (go-ipfs)<br>
@@ -297,26 +297,26 @@ should show<br>
 </ol>
 <h2 id="nginx-config">Nginx Config</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>erver <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>$host <span style="color:#f92672">=</span> ipfs.tetrateras.io<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>$host <span style="color:#f92672">=</span> &lt;you-subdomain-here&gt;<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">301</span> https://$host$request_uri;
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  listen 80;
 </span></span><span style="display:flex;"><span>  listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:80;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  server_name ipfs.tetrateras.io;
+</span></span><span style="display:flex;"><span>  server_name &lt;you-subdomain-here&gt;;
 </span></span><span style="display:flex;"><span>	root /var/www/html;
 </span></span><span style="display:flex;"><span>	index index.html;
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> 404;
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span>server <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  server_name ipfs.tetrateras.io;
+</span></span><span style="display:flex;"><span>  server_name &lt;you-subdomain-here&gt;;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:443 ssl ipv6only<span style="color:#f92672">=</span>on;
 </span></span><span style="display:flex;"><span>  listen <span style="color:#ae81ff">443</span> ssl;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  ssl_certificate /etc/ssl/ipfs_tetrateras_io_chain.crt;
-</span></span><span style="display:flex;"><span>  ssl_certificate_key /etc/ssl/tetrateras.key;
+</span></span><span style="display:flex;"><span>  ssl_certificate /etc/ssl/&lt;your-cert-here&gt;.crt;
+</span></span><span style="display:flex;"><span>  ssl_certificate_key /etc/ssl/&lt;your-key-here&gt;.key;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  location / <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    proxy_pass http://127.0.0.1:8080;
@@ -326,13 +326,13 @@ should show<br>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span>server <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  server_name ipfs.tetrateras.io;
+</span></span><span style="display:flex;"><span>  server_name &lt;you-subdomain-here&gt;;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  listen <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:4003 ssl ipv6only<span style="color:#f92672">=</span>on;
 </span></span><span style="display:flex;"><span>  listen <span style="color:#ae81ff">4003</span> ssl;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  ssl_certificate /etc/ssl/ipfs_tetrateras_io_chain.crt;
-</span></span><span style="display:flex;"><span>  ssl_certificate_key /etc/ssl/tetrateras.key;
+</span></span><span style="display:flex;"><span>  ssl_certificate /etc/ssl/&lt;your-cert-here&gt;.crt;
+</span></span><span style="display:flex;"><span>  ssl_certificate_key /etc/ssl/&lt;your-key-here&gt;.key;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  location / <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    proxy_pass http://127.0.0.1:4002;

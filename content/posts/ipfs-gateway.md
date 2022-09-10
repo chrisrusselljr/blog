@@ -81,7 +81,7 @@ A reverse proxy is a server that sits behind the firewall and will direct reques
 ## Connect to server and install IPFS
 
 1. ssh into VM  
-`ssh -i "cryptids-v6-node-west.pem" ubuntu@ec2-3-101-123-139.us-west-1.compute.amazonaws.com`
+`ssh -i "[private key here]" [instance name here]`
 
 2. Install kubo (go-ipfs)  
 `wget https://dist.ipfs.tech/kubo/v0.14.0/kubo_v0.14.0_linux-amd64.tar.gz`
@@ -200,7 +200,6 @@ Replace with your server’s address. This request will go and request the file 
 
 ## Restrict File access
 
-
 1. Configure Gateway to only fetch files that are local to your node.  
 `ipfs config --json Gateway.NoFetch true`  
 
@@ -223,26 +222,26 @@ Replace with your server’s address. This request will go and request the file 
 ## Nginx Config
 ```sh
 erver {
-  if ($host = ipfs.tetrateras.io) {
+  if ($host = <you-subdomain-here>) {
     return 301 https://$host$request_uri;
   }
 
   listen 80;
   listen [::]:80;
 
-  server_name ipfs.tetrateras.io;
+  server_name <you-subdomain-here>;
 	root /var/www/html;
 	index index.html;
 	return 404;
 }
 server {
-  server_name ipfs.tetrateras.io;
+  server_name <you-subdomain-here>;
 
   listen [::]:443 ssl ipv6only=on;
   listen 443 ssl;
 
-  ssl_certificate /etc/ssl/ipfs_tetrateras_io_chain.crt;
-  ssl_certificate_key /etc/ssl/tetrateras.key;
+  ssl_certificate /etc/ssl/<your-cert-here>.crt;
+  ssl_certificate_key /etc/ssl/<your-key-here>.key;
 
   location / {
     proxy_pass http://127.0.0.1:8080;
@@ -252,13 +251,13 @@ server {
 
 }
 server {
-  server_name ipfs.tetrateras.io;
+  server_name <you-subdomain-here>;
 
   listen [::]:4003 ssl ipv6only=on;
   listen 4003 ssl;
 
-  ssl_certificate /etc/ssl/ipfs_tetrateras_io_chain.crt;
-  ssl_certificate_key /etc/ssl/tetrateras.key;
+  ssl_certificate /etc/ssl/<your-cert-here>.crt;
+  ssl_certificate_key /etc/ssl/<your-key-here>.key;
 
   location / {
     proxy_pass http://127.0.0.1:4002;
