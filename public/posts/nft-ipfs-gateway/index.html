@@ -122,7 +122,7 @@ if (!doNotTrack) {
 <li>Faster uploads/modification of collection data (some servies are heavily rate-limited)</li>
 <li>Private pinning of NFT files, only allowing your project(s) to be shared through the gateway.</li>
 </ul>
-<h2 id="into-to-pinning">Into to Pinning</h2>
+<h2 id="pinning">Pinning</h2>
 <p>Pinning is the way of telling IPFS to always keep your asset stored somewhere. You&rsquo;ll also be uploading and pinning your files to this gateway for ease of access.</p>
 <p>Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Click on the link below as an example 👇</p>
 <p><code>https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json</code></p>
@@ -131,7 +131,7 @@ if (!doNotTrack) {
 <h2 id="nginx">NGINX</h2>
 <p>Nginx is an open source webserver that can also be configured for more advance applications such as load balancer, HTTP cache, and reverse proxy. We will use nginx as a basic reverse proxy.</p>
 <p>A reverse proxy is a server that sits behind the firewall and will direct requests to the IPFS gateway. A reverse proxy is generally used to increase security and prevent unnecessary traffic being handled by the application. We will use it for basic routing of file requests to the IPFS gateway. IPFS also provides an API port which gives full read/write access to configure the node. Exposing full access to this API is dangerous. We will completely block access however Nginx could be used to provide authenticated or limited access to this api. Additional details on setting up nginx can be found <a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04">here</a>.</p>
-<h2 id="instance-settings">Instance Settings</h2>
+<h2 id="ec2-instance-settings">EC2 Instance Settings</h2>
 <ul>
 <li>Ubuntu 18.04</li>
 <li>t2.small</li>
@@ -295,7 +295,7 @@ should show<br>
 <code>http://&lt;your ip address&gt;/ipfs/Qmbi8UxZdPLsnDSuQLDmqoo7kuTgTkVhHMHuQcz9X77Jdq</code></p>
 </li>
 </ol>
-<h2 id="configure-nginx">Configure nginx</h2>
+<h2 id="nginx-config">Nginx Config</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>erver <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>$host <span style="color:#f92672">=</span> ipfs.tetrateras.io<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">301</span> https://$host$request_uri;

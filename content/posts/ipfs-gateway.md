@@ -45,7 +45,7 @@ Other benefits to hosting your own private gateway include:
 - Faster uploads/modification of collection data (some servies are heavily rate-limited)
 - Private pinning of NFT files, only allowing your project(s) to be shared through the gateway.
 
-## Into to Pinning
+## Pinning
 Pinning is the way of telling IPFS to always keep your asset stored somewhere. You'll also be uploading and pinning your files to this gateway for ease of access. 
 
 Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Click on the link below as an example 👇
@@ -62,7 +62,7 @@ Nginx is an open source webserver that can also be configured for more advance a
 A reverse proxy is a server that sits behind the firewall and will direct requests to the IPFS gateway. A reverse proxy is generally used to increase security and prevent unnecessary traffic being handled by the application. We will use it for basic routing of file requests to the IPFS gateway. IPFS also provides an API port which gives full read/write access to configure the node. Exposing full access to this API is dangerous. We will completely block access however Nginx could be used to provide authenticated or limited access to this api. Additional details on setting up nginx can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04).
 
 
-## Instance Settings
+## EC2 Instance Settings
 - Ubuntu 18.04
 - t2.small 
 - All SSH traffic on port 22
@@ -220,7 +220,7 @@ Replace with your server’s address. This request will go and request the file 
 7. Request the local file using gateway. You should have access to retrieve this file.  
 `http://<your ip address>/ipfs/Qmbi8UxZdPLsnDSuQLDmqoo7kuTgTkVhHMHuQcz9X77Jdq`  
 
-## Configure nginx
+## Nginx Config
 ```sh
 erver {
   if ($host = ipfs.tetrateras.io) {
