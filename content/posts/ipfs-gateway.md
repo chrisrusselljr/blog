@@ -11,6 +11,7 @@ tags:
  - Tutorial
  - IPFS
  - NFT
+ - Web3
 ---
 
 
@@ -18,22 +19,24 @@ tags:
 
 One of the last steps of an NFT project is genrating and hosting the images and metadata of each token. 
 
-Most commonly, NFT assets are stored in IPFS (Inter Planetary File System). [IPFS](docs.ipfs.io) (InterPlanetary File System) is an open source, peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
+Most commonly, NFT assets are stored in IPFS (Inter Planetary File System). [IPFS](docs.ipfs.io) 
 
+IPFS is an open source, peer-to-peer network for storing and sharing data in a distributed file system. 
 
-An IPFS Gateway resolves access to any requested IPFS  content identifier, allowing browsers and applications access to IPFS content. A common situation is that you want to give public access to your data stored on your privately operated IPFS nodes. 
+IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
 
-Using a distributes IPFS allows for your project's data easy to share, harder to hack or censor, and faster to retrieve. Plus, it makes data immutable, which means that once the data is pinned, it can’t be changed.
+An IPFS Gateway resolves access to any requested IPFS content identifier, allowing browsers and applications access to IPFS content. 
 
+A common situation is that you want to give public access to your data stored on your privately operated IPFS nodes. 
 
+Using a distributes IPFS allows for your project's data easy to share, harder to hack or censor, and faster to retrieve. 
 
+Plus, it makes data immutable, which means that once the data is pinned, it can’t be changed.
 
-
-While there are a number of paid IPFS-hosting services available, hosting youir own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost (since no servers are involved).
+While there are a number of paid IPFS-hosting services available, hosting youir own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost than paid services (since no servers are involved).
 
 Other benefits to hosting your own private gateway include:
 
-## Pros
 - Full control over your data and custome experience.
 - Lower cost than using a paid service for our bandwidth needs
 - Flexibility to adjust storage to suit performance needs (CPU, RAM, memory)
@@ -41,10 +44,6 @@ Other benefits to hosting your own private gateway include:
 - Custom subdomains (ipfs.[your-project-here].com)
 - Faster uploads/modification of collection data (some servies are heavily rate-limited)
 - Private pinning of NFT files, only allowing your project(s) to be shared through the gateway.
-
-## Cons
-- Single point of failure unless your data is pinned elsewhere and/or a swarm is set up
-- Somewhat complex set-up.
 
 ## Into to Pinning
 Pinning is the way of telling IPFS to always keep your asset stored somewhere. You'll also be uploading and pinning your files to this gateway for ease of access. 
@@ -54,18 +53,16 @@ Once your metadata is uploaded and pinned, it will be easily acessed through you
 `https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json`
 
 
-## Why SSL
+## SSL
 SSL gives our users privacy through the use of digitial encrpyiton as well as trust that they're being served NFT assets directly from our private gateway. So the traffic you're getting from the gateway is 100% authentic.
 
-## Why NGINX
+## NGINX
 Nginx is an open source webserver that can also be configured for more advance applications such as load balancer, HTTP cache, and reverse proxy. We will use nginx as a basic reverse proxy.
 
 A reverse proxy is a server that sits behind the firewall and will direct requests to the IPFS gateway. A reverse proxy is generally used to increase security and prevent unnecessary traffic being handled by the application. We will use it for basic routing of file requests to the IPFS gateway. IPFS also provides an API port which gives full read/write access to configure the node. Exposing full access to this API is dangerous. We will completely block access however Nginx could be used to provide authenticated or limited access to this api. Additional details on setting up nginx can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04).
 
 
-## Tutorial
-
-### Instance Settings
+## Instance Settings
 - Ubuntu 18.04
 - t2.small 
 - All SSH traffic on port 22
@@ -76,8 +73,7 @@ A reverse proxy is a server that sits behind the firewall and will direct reques
 - Used EPS GP3 storage (cheapest option)
 - Allocate the EC2 instance to an [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html).
 
-### Domain Name
- - Purchased from namecheap.com (insert affilaie)
+## Domain Settings
  - Set up a [subdomain](https://www.namecheap.com/support/knowledgebase/article.aspx/9776/2237/how-to-create-a-subdomain-for-my-domain/), using the Elastic IP allocated above. 
  - Set up SSL following [this guide](https://www.namecheap.com/support/knowledgebase/article.aspx/9419/33/installing-an-ssl-certificate-on-nginx/).
 
@@ -191,9 +187,11 @@ should show
 Install nginx  
 `sudo apt install nginx`
 
-Put certs in /etc/ssl. If you've bought your domain with namecheap, you'll need generate a [CSR code and key file](https://www.namecheap.com/support/knowledgebase/article.aspx/9446/14/generating-csr-on-apache-opensslmodsslnginx-heroku/), [activate your SSL certificate](https://www.namecheap.com/support/knowledgebase/article.aspx/794/67/how-do-i-activate-an-ssl-certificate/), [install your SSL certificates on Nginx](https://www.namecheap.com/support/knowledgebase/article.aspx/9419/33/installing-an-ssl-certificate-on-nginx/). This was a challenging step, but if you read through the three links above, you shouldn't run into any problems. 
+If you've bought your domain with namecheap, you'll need generate a [CSR code and key file](https://www.namecheap.com/support/knowledgebase/article.aspx/9446/14/generating-csr-on-apache-opensslmodsslnginx-heroku/), [activate your SSL certificate](https://www.namecheap.com/support/knowledgebase/article.aspx/794/67/how-do-i-activate-an-ssl-certificate/), [install your SSL certificates on Nginx](https://www.namecheap.com/support/knowledgebase/article.aspx/9419/33/installing-an-ssl-certificate-on-nginx/). 
 
-## Test your gateway
+This was a challenging step, but if you read through the links above, you shouldn't have any trouble.
+
+## Test your Gateway
 If everything is configured correctly your IPFS node should be running and your node setup as a full public gateway. A user could request any available IPFS file.  
  
 Replace with your server’s address. This request will go and request the file from the peer network and return a text file containing : “hello world!”  
@@ -277,8 +275,7 @@ Check out filezilla for an easy to use interface for sending files to your VM.
 ## Pin files to your ipfs node
 `ipfs add --recursive --progress ./gif  `
 
-
-## Extra Resources
+## Resources
 
 - [A (loosely written) Guide to Hosting an IPFS Node on AWS](https://talk.fission.codes/t/a-loosely-written-guide-to-hosting-an-ipfs-node-on-aws/234)
 - [Setting Up IPFS Server With Nginx And Gateway](https://www.geekdecoder.com/setting-up-ipfs-server-with-nginx-and-gateway/)

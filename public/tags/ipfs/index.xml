@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPFS on Life So Far // Days Ahead</title>
+    <link>https://chrisrussell.blog/tags/ipfs/</link>
+    <description>Recent content in IPFS on Life So Far // Days Ahead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2022</copyright>
+    <lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://chrisrussell.blog/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial: Hosting a private IPFS Gateway for your NFT Project</title>
+      <link>https://chrisrussell.blog/posts/nft-ipfs-gateway/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://chrisrussell.blog/posts/nft-ipfs-gateway/</guid>
+      <description>Introduction One of the last steps of an NFT project is genrating and hosting the images and metadata of each token.
+Most commonly, NFT assets are stored in IPFS (Inter Planetary File System). IPFS
+IPFS is an open source, peer-to-peer network for storing and sharing data in a distributed file system.
+IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
+An IPFS Gateway resolves access to any requested IPFS content identifier, allowing browsers and applications access to IPFS content.</description>
+    </item>
+    
+  </channel>
+</rss>
