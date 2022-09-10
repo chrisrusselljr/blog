@@ -103,16 +103,9 @@ if (!doNotTrack) {
   
   <section id="js-article" class="p-article__body">
     <h2 id="introduction">Introduction</h2>
-<p>One of the last steps of an NFT project is genrating and hosting the images and metadata of each token.</p>
-<p>Most commonly, NFT assets are stored in IPFS (Inter Planetary File System). <a href="docs.ipfs.io">IPFS</a></p>
-<p>IPFS is an open source, peer-to-peer network for storing and sharing data in a distributed file system.</p>
-<p>IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.</p>
-<p>An IPFS Gateway resolves access to any requested IPFS content identifier, allowing browsers and applications access to IPFS content.</p>
-<p>A common situation is that you want to give public access to your data stored on your privately operated IPFS nodes.</p>
-<p>Using a distributes IPFS allows for your project&rsquo;s data easy to share, harder to hack or censor, and faster to retrieve.</p>
-<p>Plus, it makes data immutable, which means that once the data is pinned, it can’t be changed.</p>
-<p>While there are a number of paid IPFS-hosting services available, hosting youir own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost than paid services (since no servers are involved).</p>
-<p>Other benefits to hosting your own private gateway include:</p>
+<p>One of the last steps of an NFT project is genrating and hosting the images and metadata of each token. Most commonly, NFT assets are stored in IPFS (Inter Planetary File System). <a href="docs.ipfs.io">IPFS</a> is an open source, peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.</p>
+<p>An IPFS Gateway resolves access to any requested IPFS content identifier, allowing browsers and applications access to IPFS content. A common situation is that you want to give public access to your data stored on your privately operated IPFS nodes. Using a distributes IPFS allows for your project&rsquo;s data easy to share, harder to hack or censor, and faster to retrieve. Plus, it makes data immutable, which means that once the data is pinned, it can’t be changed.</p>
+<p>While there are a number of paid IPFS-hosting services available, hosting youir own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost than paid services (since no servers are involved). Other benefits to hosting your own private gateway include:</p>
 <ul>
 <li>Full control over your data and custome experience.</li>
 <li>Lower cost than using a paid service for our bandwidth needs</li>
@@ -124,23 +117,21 @@ if (!doNotTrack) {
 </ul>
 <h2 id="pinning">Pinning</h2>
 <p>Pinning is the way of telling IPFS to always keep your asset stored somewhere. You&rsquo;ll also be uploading and pinning your files to this gateway for ease of access.</p>
-<p>Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Click on the link below as an example 👇</p>
+<p>Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Ex.)</p>
 <p><code>https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json</code></p>
 <h2 id="ssl">SSL</h2>
 <p>SSL gives our users privacy through the use of digitial encrpyiton as well as trust that they&rsquo;re being served NFT assets directly from our private gateway. So the traffic you&rsquo;re getting from the gateway is 100% authentic.</p>
 <h2 id="nginx">NGINX</h2>
-<p>Nginx is an open source webserver that can also be configured for more advance applications such as load balancer, HTTP cache, and reverse proxy. We will use nginx as a basic reverse proxy.</p>
-<p>A reverse proxy is a server that sits behind the firewall and will direct requests to the IPFS gateway. A reverse proxy is generally used to increase security and prevent unnecessary traffic being handled by the application. We will use it for basic routing of file requests to the IPFS gateway. IPFS also provides an API port which gives full read/write access to configure the node. Exposing full access to this API is dangerous. We will completely block access however Nginx could be used to provide authenticated or limited access to this api. Additional details on setting up nginx can be found <a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04">here</a>.</p>
+<p>Nginx is an open source webserver that you&rsquo;ll be using as a basic reverse proxy for basic routing of file requests to the IPFS gateway. A reverse proxy is a server that sits behind the firewall and will direct requests to the IPFS gateway. This will increase security and prevent unnecessary traffic being handled your gateway.</p>
 <h2 id="ec2-instance-settings">EC2 Instance Settings</h2>
 <ul>
 <li>Ubuntu 18.04</li>
 <li>t2.small</li>
 <li>All SSH traffic on port 22</li>
-<li>All HTTP/HTTPS traffic on ports 80/443 respectively (0.0.0.0/0 &amp; ::/0)</li>
+<li>All HTTP/HTTPS traffic on ports 80 / 443 respectively (0.0.0.0/0 &amp; ::/0)</li>
 <li>All TCP traffic on port 8080 (gateway) 0.0.0.0/0 &amp; ::/0)</li>
 <li>All TCP traffic on ports 4001 - 4003 (ipfs connection ports) 0.0.0.0/0 &amp; ::/0)</li>
-<li>Storage = files to be stored * 2.2 ex.) 80 gb of assets  = 176 gb block volume aside</li>
-<li>Used EPS GP3 storage (cheapest option)</li>
+<li>EPS GP3 Block storage (size = total file size * 2.2)</li>
 <li>Allocate the EC2 instance to an <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html">Elastic IP</a>.</li>
 </ul>
 <h2 id="domain-settings">Domain Settings</h2>
@@ -244,9 +235,9 @@ Should output:</p>
 </span></span><span style="display:flex;"><span>Aug <span style="color:#ae81ff">27</span> 17:08:53 ip-172-31-20-217 ipfs<span style="color:#f92672">[</span>1537<span style="color:#f92672">]</span>: Gateway <span style="color:#f92672">(</span>readonly<span style="color:#f92672">)</span> server listenin&gt;
 </span></span><span style="display:flex;"><span>Aug <span style="color:#ae81ff">27</span> 17:08:53 ip-172-31-20-217 ipfs<span style="color:#f92672">[</span>1537<span style="color:#f92672">]</span>: Daemon is ready
 </span></span></code></pre></div><h2 id="checkpoint">Checkpoint</h2>
-<p>Load <code>$PUBLIC_DNS:8080/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv</code>in your browser and you should see the docs directory</p>
+<p>Curl <code>$PUBLIC_DNS:8080/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv</code> on your VM in your browser and you should see the docs directory</p>
 <p>in our case: <code>ec2-3-101-123-139.us-west-1.compute.amazonaws.com:8080/ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv</code></p>
-<h2 id="install-nginx">Install nginx</h2>
+<h2 id="install-nginx">Install NGINX</h2>
 <p><code>sudo apt update</code><br>
 <code>sudo apt-get dist-upgrade</code><br>
 <code>sudo apt install nginx</code><br>
@@ -259,43 +250,7 @@ should show<br>
 <p>Install nginx<br>
 <code>sudo apt install nginx</code></p>
 <p>If you&rsquo;ve bought your domain with namecheap, you&rsquo;ll need generate a <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9446/14/generating-csr-on-apache-opensslmodsslnginx-heroku/">CSR code and key file</a>, <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/794/67/how-do-i-activate-an-ssl-certificate/">activate your SSL certificate</a>, <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9419/33/installing-an-ssl-certificate-on-nginx/">install your SSL certificates on Nginx</a>.</p>
-<p>This was a challenging step, but if you read through the links above, you shouldn&rsquo;t have any trouble.</p>
-<h2 id="test-your-gateway">Test your Gateway</h2>
-<p>If everything is configured correctly your IPFS node should be running and your node setup as a full public gateway. A user could request any available IPFS file.</p>
-<p>Replace with your server’s address. This request will go and request the file from the peer network and return a text file containing : “hello world!”</p>
-<p><code>https://&lt;your ip address&gt;/ipfs/QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j</code></p>
-<h2 id="restrict-file-access">Restrict File access</h2>
-<ol>
-<li>
-<p>Configure Gateway to only fetch files that are local to your node.<br>
-<code>ipfs config --json Gateway.NoFetch true</code></p>
-</li>
-<li>
-<p>restart IPFS<br>
-<code>sudo systemctl restart ipfs</code></p>
-</li>
-<li>
-<p>delete previously fetched files from cache by running garbage collection<br>
-<code>ipfs repo gc</code></p>
-</li>
-<li>
-<p>Request remote file again. You should get error message “merkledag: not found”<br>
-<code>http://&lt;your ip address&gt;/ipfs/QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j</code></p>
-</li>
-<li>
-<p>Create and pin local file to your node. The resulting hash will be displayed <br>
-<code>echo &quot;hello friend&quot; | ipfs add</code></p>
-</li>
-<li>
-<p>read the contents of the created file <br>
-<code>ipfs cat Qmbi8UxZdPLsnDSuQLDmqoo7kuTgTkVhHMHuQcz9X77Jdq</code></p>
-</li>
-<li>
-<p>Request the local file using gateway. You should have access to retrieve this file.<br>
-<code>http://&lt;your ip address&gt;/ipfs/Qmbi8UxZdPLsnDSuQLDmqoo7kuTgTkVhHMHuQcz9X77Jdq</code></p>
-</li>
-</ol>
-<h2 id="nginx-config">Nginx Config</h2>
+<h2 id="nginx-config">NGINX Config</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>erver <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>$host <span style="color:#f92672">=</span> &lt;you-subdomain-here&gt;<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">301</span> https://$host$request_uri;
@@ -341,14 +296,48 @@ should show<br>
 </span></span><span style="display:flex;"><span>    proxy_set_header Connection <span style="color:#e6db74">&#34;upgrade&#34;</span>;
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span></code></pre></div><h2 id="send-files-to-vm">Send files to VM</h2>
+</span></span></code></pre></div><h2 id="test-your-gateway">Test your Gateway</h2>
+<p>If everything is configured correctly your IPFS node should be running and your node setup as a full public gateway. A user could request any available IPFS file.</p>
+<p>Replace with your server’s address. This request will go and request the file from the peer network and return a text file containing : “hello world!”</p>
+<p><code>https://&lt;your-subdomain-here&gt;/ipfs/QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j</code></p>
+<h2 id="restrict-file-access">Restrict File access</h2>
+<ol>
+<li>
+<p>Configure Gateway to only fetch files that are local to your node.<br>
+<code>ipfs config --json Gateway.NoFetch true</code></p>
+</li>
+<li>
+<p>restart IPFS<br>
+<code>sudo systemctl restart ipfs</code></p>
+</li>
+<li>
+<p>delete previously fetched files from cache by running garbage collection<br>
+<code>ipfs repo gc</code></p>
+</li>
+<li>
+<p>Request remote file again. You should get error message “merkledag: not found”<br>
+<code>http://&lt;your ip address&gt;/ipfs/QmTp2hEo8eXRp6wg7jXv1BLCMh5a4F3B7buAUZNZUu772j</code></p>
+</li>
+<li>
+<p>Create and pin local file to your node. The resulting hash will be displayed <br>
+<code>echo &quot;hello friend&quot; | ipfs add</code></p>
+</li>
+<li>
+<p>read the contents of the created file <br>
+<code>ipfs cat Qmbi8UxZdPLsnDSuQLDmqoo7kuTgTkVhHMHuQcz9X77Jdq</code></p>
+</li>
+<li>
+<p>Request the local file using gateway. You should have access to retrieve this file.<br>
+<code>http://&lt;your ip address&gt;/ipfs/Qmbi8UxZdPLsnDSuQLDmqoo7kuTgTkVhHMHuQcz9X77Jdq</code></p>
+</li>
+</ol>
+<h2 id="send-files-to-vm">Send files to VM</h2>
 <p>Check out filezilla for an easy to use interface for sending files to your VM.</p>
 <h2 id="pin-files-to-your-ipfs-node">Pin files to your ipfs node</h2>
 <p><code>ipfs add --recursive --progress ./gif  </code></p>
-<h2 id="resources">Resources</h2>
+<h2 id="extra-resources">Extra Resources</h2>
 <ul>
 <li><a href="https://talk.fission.codes/t/a-loosely-written-guide-to-hosting-an-ipfs-node-on-aws/234">A (loosely written) Guide to Hosting an IPFS Node on AWS</a></li>
-<li><a href="https://www.geekdecoder.com/setting-up-ipfs-server-with-nginx-and-gateway/">Setting Up IPFS Server With Nginx And Gateway</a></li>
 <li><a href="https://www.reddit.com/r/ipfs/comments/thpgt1/a_mostly_complete_guide_to_hosting_a_public_ipfs/">A mostly complete guide to hosting a public IPFS gateway</a></li>
 <li><a href="https://medium.com/textileio/tutorial-setting-up-an-ipfs-peer-part-ii-67a99cd2c5">Tutorial: Setting up an IPFS peer, part II</a></li>
 <li><a href="https://vinta.ws/code/ipfs-the-very-slow-distributed-permanent-web.html">IPFS: The (Very Slow) Distributed Permanent Web</a></li>
