@@ -1,12 +1,12 @@
 ---
-title: "Tutorial: Hosting a private IPFS Gateway for your NFT Project"
+title: "How To Host a Private IPFS Gateway for your NFT Project"
 date: 2022-09-10
 description: Kubo (ifps-go), Amazon EC2, namecheap, nginx, and SSL. 
 author: "Chris Russell"
 linktitle: Private IPFS Gateway Tutorial for NFT Metadata
 thumbnail: "/img/network.jpg"
 draft: false
-slug: nft-ipfs-gateway
+slug: nft-ipfs-gateway-ec2
 tags:
  - Tutorial
  - IPFS
@@ -17,11 +17,24 @@ tags:
 
 ## Introduction
 
-One of the last steps of an NFT project is genrating and hosting the images and metadata of each token. Most commonly, NFT assets are stored in IPFS (Inter Planetary File System). [IPFS](docs.ipfs.io) is an open source, peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
+One of the last steps of an NFT project is hosting the images and metadata of each token so Marketplace-ready. Most commonly, NFT assets are stored using the IPFS (Inter Planetary File System). [IPFS](docs.ipfs.io) is an open source, peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
 
 An IPFS Gateway resolves access to any requested IPFS content identifier, allowing browsers and applications access to IPFS content. A common situation is that you want to give public access to your data stored on your privately operated IPFS nodes. Using a distributes IPFS allows for your project's data easy to share, harder to hack or censor, and faster to retrieve. Plus, it makes data immutable, which means that once the data is pinned, it can’t be changed.
 
-While there are a number of paid IPFS-hosting services available, hosting youir own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost than paid services (since no servers are involved). Other benefits to hosting your own private gateway include:
+
+
+## Pinning
+Pinning is the way of telling IPFS to always keep your asset stored somewhere.
+
+Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Ex.)
+
+
+`https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json`
+
+
+While there are a number of paid pinning services available, hosting your own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost than paid services (since no servers are involved). For my project [Cryptids](https://www.cryptids.app/), our monthly hosting cost is around $45/month for 35 GB of data.   
+
+Other benefits to hosting your own private gateway include:
 
 - Full control over your data and custome experience.
 - Lower cost than using a paid service for our bandwidth needs
@@ -30,14 +43,6 @@ While there are a number of paid IPFS-hosting services available, hosting youir 
 - Custom subdomains (ipfs.[your-project-here].com)
 - Faster uploads/modification of collection data (some servies are heavily rate-limited)
 - Private pinning of NFT files, only allowing your project(s) to be shared through the gateway.
-
-## Pinning
-Pinning is the way of telling IPFS to always keep your asset stored somewhere. You'll also be uploading and pinning your files to this gateway for ease of access. 
-
-Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Ex.)
-
-`https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json`
-
 
 ## SSL
 SSL gives our users privacy through the use of digitial encrpyiton as well as trust that they're being served NFT assets directly from our private gateway. So the traffic you're getting from the gateway is 100% authentic.
@@ -51,10 +56,10 @@ Nginx is an open source webserver that you'll be using as a basic reverse proxy 
 - t2.small 
 - All SSH traffic on port 22
 - All HTTP/HTTPS traffic on ports 80 / 443 respectively (0.0.0.0/0 & ::/0)
-- All TCP traffic on port 8080 (gateway) 0.0.0.0/0 & ::/0)
-- All TCP traffic on ports 4001 - 4003 (ipfs connection ports) 0.0.0.0/0 & ::/0)
+- All TCP traffic on port 8080  (0.0.0.0/0 & ::/0)
+- All TCP traffic on ports 4001 - 4003 (0.0.0.0/0 & ::/0)
 - EPS GP3 Block storage (size = total file size * 2.2)
-- Allocate the EC2 instance to an [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html).
+- Allocate the EC2 instance to an [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) for sub-domain setup. 
 
 ## Domain Settings
  - Set up a [subdomain](https://www.namecheap.com/support/knowledgebase/article.aspx/9776/2237/how-to-create-a-subdomain-for-my-domain/), using the Elastic IP allocated above. 
@@ -255,7 +260,7 @@ Replace with your server’s address. This request will go and request the file 
 Check out filezilla for an easy to use interface for sending files to your VM. 
 
 ## Pin files to your ipfs node
-`ipfs add --recursive --progress ./gif  `
+`ipfs add --recursive --progress ./<your-folder-here>`
 
 ## Extra Resources
 
