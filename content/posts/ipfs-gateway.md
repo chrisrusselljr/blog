@@ -29,7 +29,7 @@ Pinning is the way of telling IPFS to always keep your asset stored somewhere.
 Once your metadata is uploaded and pinned, it will be easily acessed through your gateway. Ex.)
 
 
-`https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json`
+[https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json](https://ipfs.tetrateras.io/ipfs/QmUCrsPtFsMwpzqHnR75zP3qQwwXM3TmJVgBYtNQtwRfBd/995.json)
 
 
 While there are a number of paid pinning services available, hosting your own gateway will allow your NFT’s metadata to be shared at faster and at a much lower cost than paid services (since no servers are involved). For my project [Cryptids](https://www.cryptids.app/), our monthly hosting cost is around $45/month for 35 GB of data.   
