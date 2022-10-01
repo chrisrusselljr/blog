@@ -1,5 +1,5 @@
 ---
-title: "How To Host a Private IPFS Gateway for your NFT Project"
+title: "Tutorial: Hosting a Private IPFS Gateway"
 date: 2022-09-10
 description: Kubo (ifps-go), Amazon EC2, namecheap, nginx, and SSL. 
 author: "Chris Russell"
