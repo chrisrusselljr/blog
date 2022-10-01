@@ -21,7 +21,7 @@ canonifyURLs = true
 [params]
   description = "Happiness, fulfillment, success. Today."
   RSSLink = "/index.xml"
-  paginate = 5
+  paginate = 10
   custom_css = ["/css/custom.css"]
   # Social accounts. Link to these accounts are displayed in the header and
   # footer
