@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Hosting a Private IPFS Gateway"
 date: 2022-09-10
-description: Kubo (ifps-go), Amazon EC2, namecheap, nginx, and SSL. 
+description: How to host your own private IPFS Gateway with Kubo (ifps-go).
 author: "Chris Russell"
 linktitle: Private IPFS Gateway Tutorial for NFT Metadata
 thumbnail: "/img/network.jpg"
