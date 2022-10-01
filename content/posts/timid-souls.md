@@ -4,7 +4,7 @@ date: 2021-12-27
 description: "Stand out and do something."
 author: "Chris Russell"
 linktitle: timid-souls
-draft: false
+draft: true
 slug: timid-souls
 thumbnail: "/img/roosevelt.jpeg"
 tags:

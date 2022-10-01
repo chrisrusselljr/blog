@@ -3,7 +3,7 @@ title: Make Something
 date: 2020-12-28
 author: "Chris Russell"
 linktitle: Make Something
-draft: false
+draft: true
 tags:
   - purpose
   - happiness
